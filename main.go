@@ -22,7 +22,7 @@ func main() {
 
 	r := gin.Default() // default router for gin
 
-	r.GET("/status", PingHandler)
+	r.GET("/ping", PingHandler)
 
 	// We will create crud route
 	users := make([]handlers.User, 0)
