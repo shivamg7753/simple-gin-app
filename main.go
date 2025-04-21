@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 	"session20-gin-app/handlers"
 	"session20-gin-app/middlewares"
+
+	"github.com/gin-gonic/gin"
 )
 
 // go build -o myapp main.go
